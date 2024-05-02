@@ -1,0 +1,62 @@
+body{
+    background-image: url(bg.jpg);
+}
+.video{
+    margin-left: 15%;
+}
+.qwerty{
+    font-family: sans-serif;
+    margin-top: 10%;
+}
+
+.bg-yellow {
+    --tw-bg-opacity: 1;
+    background-color:rgb(255 225 173 / var(--tw-bg-opacity));
+    
+  }
+.bg-darkyellow {
+    --tw-bg-opacity: 1;
+    background-color:rgb(228 199 133);
+    border-radius: 7px;
+}
+
+.asdf{
+    margin-top: 10%;
+    margin-left: 25%;
+    
+}
+.asdfe{
+    margin-left:13%;
+}
+#column1 .game-item img[selected="true"] {
+    background-color: lightblue;
+  }
+@media only screen and (max-width: 640px) {
+    .asdf{
+        margin-top: 10%;
+        margin-left: 0%;
+        
+    }
+  }
+
+/* -------zein------------ */
+.game-place {
+    display: block
+  }
+  .
+  .game-row {
+    display: inline-block;
+    align-items: center;
+  }
+  .game-item {
+    display: table-cell;
+    margin: 5px ;
+    border-radius: 7px;
+    background-color: gray;
+  }
+  .highlight {
+    background-color: green;
+  }
+  .ans{
+    margin: 90px 5px ;
+  }
