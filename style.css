@@ -1,6 +1,29 @@
 body{
     background-image: url(bg.jpg);
 }
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.autors{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  max-width: 100%;
+}
+.autors img{
+  object-fit: cover;
+  margin-right: 30px;
+  max-width: 30%;
+}
+.autorsline{
+  display: inline-flex;
+}
+.zxc{
+  width: 100%;
+}
 .video{
     margin-left: 15%;
 }
